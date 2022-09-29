@@ -1,0 +1,52 @@
+.login
+{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: grid;
+    align-items: center;
+    height : 600px;
+}
+.checkboxautologin{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.autologin{
+    font-size: 15px;
+    margin-top: 10px;
+    padding:0;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.idpwbox{
+    padding: 90px;
+    padding-bottom: 50px;
+}
+#idbox{
+    size: 20px;
+}
+.label{
+    font-size: 20px;
+}
+.loginbtn{
+    border: none;
+    font-size:20px;
+    width: 100px;
+}
+.signupbtn{
+    border: none;
+    font-size:20px;
+    width: 100px;
+}
+.logindiv{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 150px 1fr;
+    padding-bottom: 100px;
+    padding-left: 70px;
+}

@@ -1,0 +1,39 @@
+.login
+{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: grid;
+    align-items: center;
+    height : 600px;
+}
+.idpwbox{
+    padding: 90px;
+}
+.label{
+    font-size: 20px;
+}
+ul.mylist li{
+    -webkit-transition: background-color 0.8s linear;
+    -moz-transition: background-color 0.8s linear;
+    -ms-transition: background-color 0.8s linear;
+    -o-transition: background-color 0.8s linear;
+    transition: background-color 0.8s linear;
+} 
+.loginbtn{
+    border: none;
+    font-size:20px;
+}
+.signupbtn{
+    border: none;
+    font-size:20px;
+}
+.doublechk
+{
+    background-color: #87fab7;
+    border:none;
+}
+.pwchk{
+    padding-bottom: 40px;
+}

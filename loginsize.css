@@ -1,0 +1,11 @@
+.loginbox{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1f6e1;
+}
+.idpwbox{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

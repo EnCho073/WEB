@@ -1,0 +1,55 @@
+/* mainpage---------------- */
+a {
+    color: black;
+}
+.top{
+    background-color: #1abc9c;
+}
+#menu{
+    background-color: #76fdaf ;
+}
+ul.mylist li, ol.mylist li {
+    border: 1px solid #efefef;
+}
+.login
+{
+    background-color: #f1fbe0;
+}
+.idpwbox{
+    background-color: #e0e0e0;
+}
+ul.mylist li:hover{
+    background-color: #f6f6f6;
+}
+.mainpage{
+    background-color: #f1fbe0;
+}
+/* -------------------- */
+
+
+
+/* login-------------------- */
+.loginbtn{
+    background-color: #398fdb;
+    color:white;
+}
+.signupbtn{
+    background-color: #3498db;
+    color:white;
+}
+.logindiv{
+    background-color: #e0e0e0;
+}
+.loginbox{
+    background-color: #f1fbe0;
+}
+/* -------------------- */
+
+
+
+/* signup------------- */
+.doublechk
+{
+    background-color: #87fab7;
+}
+/* -------------------- */

@@ -1,0 +1,65 @@
+  <!DOCTYPE html>
+  <html lang="kor">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div class="top">
+      <img src="chat.png" style="width: 150px;">
+       <p class="webchat" onclick="location.href='mainpage.html'"><b>WebChat</b></p>
+      <img class="lock" src="lock.png"style="width:100px" onclick="location.href='login.html'">
+      </div>
+      <link rel="stylesheet" href="mainpage.css" />
+      <link rel="stylesheet" href="login.css" />
+      <link rel="stylesheet" href="loginsize.css" />
+      <link rel="stylesheet" href="color.css" />
+  </head>
+  <body>
+    <div id = "menu">
+        <ul class="mylist">
+        <li><a href="profile.html"><b>프로필</b></a></li>
+        <li><a href="friend.html"><b>친구</b></a></li>
+        <li><a href="chat.html"><b>대화창</b></a></li>
+        <li><a href="setting.html"><b>설정</b></a></li>
+        </ul>
+        <div>
+            <section class="login">
+                <!-- Jumbotron -->
+                <div class="loginbox">
+                  <form><!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="idpwbox">
+                    <div class="row">
+                        <div class="form-outline">
+                          <h1><b>로그인</b></h1>
+                          <input type="text" id="idbox" class="form-control" />
+                          <label class="label" for="form3Example2">ID</label>
+                         </div>
+                    </div>
+                     <!-- Password input -->
+                    <div class="form-outline mb-4">
+                     <input type="password" id="pwbox" class="form-control" />
+                      <label class="label" for="form3Example4">PW</label>
+                      <div class="checkboxautologin">
+                          <input class="checkbox" type="checkbox" value="" id="form2Example33" checked />
+                           <label class="autologin" for="form2Example33">
+                             아이디 자동기억
+                           </label>
+                     </div>   
+                     <!-- Submit button -->
+  
+                  </div>
+                
+               </div>
+                    </form>
+                    <div class="logindiv">
+                    <button type="submit" class="loginbtn">
+                      <b>로그인</b></button>
+                  <button type="submit" class="signupbtn" onclick="location.href='signup.html'"><b>회원가입</b>
+                  </button>
+                </div>
+              </section>
+        </div>
+    </div> 
+  </body>
+  </html>
