@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <!--상단바-->
+  <div class="top">
+      <img src="chat.png" style="width: 150px;">
+       <p class="webchat" onclick="location.href='mainpage.html'"><b>WebChat</b></p>
+   <img class="lock" src="lock.png"style="width:100px" onclick="location.href='login.html'">
+    </div>
+    <!--CSS-->
+    <link rel="stylesheet" href="mainpage.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="loginsize.css" />
+    <link rel="stylesheet" href="color.css" />
+    <!--회원가입 클릭시 출력-->
+    <script>
+        function signup(){
+          alert("회원가입이 완료되었습니다.");
+        }
+      </script>
+</head>
+<body>
+  <!--메뉴바-->
+  <div id = "menu">
+      <ul class="mylist">
+      <li><a href="profile.html"><b>프로필</b></a></li>
+      <li><a href="friend.html"><b>친구</b></a></li>
+      <li><a href="chat.html"><b>대화창</b></a></li>
+      <li><a href="setting.html"><b>설정</b></a></li>
+      </ul>
+      <!--회원가입창 내용-->
+      <div>
+          <section class="login">
+              <div class="loginbox">
+                  <div class="idpwbox">
+                  <div class="row">
+                      <div class="form-outline">
+                        <h1><b>회원가입</b></h1>
+                        <input type="text" id="idbox" class="form-control" />
+                        <label class="label" for="form3Example2">ID</label>
+                        <button type="submit" class="doublechk">
+                            <b>중복확인</b></button>
+                       </div>
+                  </div>
+                  <div class="form-outline mb-4">
+                   <input type="password" id="pwbox" class="form-control" />
+                    <label class="label" for="form3Example4">PW</label></div>
+                    <div class="pwchk">
+                    <input type="passwordcheck" id="pwcheckbox" class="form-control" />
+                    <label class="label" for="form3Example4">PW확인</label>
+                    </div>
+                  <div class="signloginbox">
+                   <button type="submit" class="signupbtn" onclick="signup()">
+                     <b>회원가입</b>
+                   </button>
+                   </div>
+                  </div>
+                  </div>
+                  </form>
+            </section>
+      </div>
+  </div> 
+</body>
+</html>
