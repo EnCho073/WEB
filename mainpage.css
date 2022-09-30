@@ -64,3 +64,30 @@ ul.mylist li{
     align-items: center;
     justify-content: center;
 }
+footer{
+    width:100;
+    height:110px;
+    bottom: 0px;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    color:#808080;
+    font-size:11px;
+}
+footer a{
+    display: inline-block;
+    margin: 5px 20px 10px 30px;
+    color: #808080;
+    font-size: 11px;
+}
+footer a:visited{
+    color :#808080;
+}
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+footer p span{
+    display: inline-block;
+    margin-left: 20px;
+}
